@@ -1,36 +1,7 @@
 EESchema Schematic File Version 2
-LIBS:power
+LIBS:rPi_audio_board_4-cache
 LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:w_vacuum
-LIBS:Paspu_IO_Header
+LIBS:power
 LIBS:w_analog
 LIBS:w_connectors
 LIBS:w_device
@@ -41,12 +12,7 @@ LIBS:w_opto
 LIBS:w_relay
 LIBS:w_rtx
 LIBS:w_transistor
-LIBS:MIC5207BM5
-LIBS:MIC5225
-LIBS:MIC39100-5.0
-LIBS:PLL1705
-LIBS:PLL1705 (1)
-LIBS:WM8731
+LIBS:w_vacuum
 LIBS:rPi_audio_board_4-cache
 EELAYER 24 0
 EELAYER END
@@ -344,7 +310,7 @@ Text GLabel 950  1400 0    60   Output ~ 0
 I2C_CLK
 Text GLabel 1400 1300 0    60   Output ~ 0
 I2C_SDA
-Text GLabel 4850 7200 2    60   Output ~ 0
+Text GLabel 4900 7150 2    60   Output ~ 0
 +3.3VDC
 Text GLabel 3250 1200 2    60   Input ~ 0
 +5VDC
@@ -390,26 +356,26 @@ $EndComp
 $Comp
 L C C6
 U 1 1 5200CE14
-P 4300 7400
-F 0 "C6" H 4350 7500 50  0000 L CNN
-F 1 "2.2uF" H 4350 7300 50  0000 L CNN
-F 2 "" H 4300 7400 60  0000 C CNN
-F 3 "" H 4300 7400 60  0000 C CNN
-	1    4300 7400
+P 4300 7350
+F 0 "C6" H 4350 7450 50  0000 L CNN
+F 1 "2.2uF" H 4350 7250 50  0000 L CNN
+F 2 "" H 4300 7350 60  0000 C CNN
+F 3 "" H 4300 7350 60  0000 C CNN
+	1    4300 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
 U 1 1 5200CE26
-P 2400 7350
-F 0 "C2" H 2450 7450 50  0000 L CNN
-F 1 "1.0uF" H 2450 7250 50  0000 L CNN
-F 2 "" H 2400 7350 60  0000 C CNN
-F 3 "" H 2400 7350 60  0000 C CNN
-	1    2400 7350
+P 2400 7450
+F 0 "C2" H 2450 7550 50  0000 L CNN
+F 1 "1.0uF" H 2450 7350 50  0000 L CNN
+F 2 "" H 2400 7450 60  0000 C CNN
+F 3 "" H 2400 7450 60  0000 C CNN
+	1    2400 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3000 8000 0    60   Input ~ 0
+Text GLabel 3150 6800 0    60   Input ~ 0
 GPIO4
 Text GLabel 1300 1500 0    60   BiDi ~ 0
 GPIO4
@@ -733,7 +699,7 @@ L MIC5225 U3
 U 1 1 5204148F
 P 3350 7400
 F 0 "U3" H 3000 7750 50  0000 C CNN
-F 1 "MIC5225" H 3350 7600 50  0000 C CNN
+F 1 "MIC5225" H 3350 7400 50  0000 C CNN
 F 2 "MODULE" H 3350 7400 50  0001 C CNN
 F 3 "DOCUMENTATION" H 3350 7400 50  0001 C CNN
 	1    3350 7400
@@ -896,8 +862,8 @@ Connection ~ 13450 5750
 Wire Wire Line
 	12200 5750 14800 5750
 Wire Wire Line
-	4100 7200 4850 7200
-Connection ~ 4300 7200
+	4100 7150 4900 7150
+Connection ~ 4300 7150
 Wire Wire Line
 	1800 7800 4300 7800
 Wire Wire Line
@@ -1214,13 +1180,10 @@ Connection ~ 11700 3050
 Connection ~ 2500 5050
 Wire Wire Line
 	4650 1700 4700 1700
-Connection ~ 2400 7550
+Connection ~ 2400 7650
 Connection ~ 2400 7150
-Connection ~ 3200 8000
-Connection ~ 2600 7550
-Wire Wire Line
-	4300 7800 4300 7600
-Connection ~ 4300 7600
+Connection ~ 3350 6800
+Connection ~ 2600 7650
 Connection ~ 4050 6000
 Wire Wire Line
 	1400 1300 1450 1300
@@ -1291,12 +1254,11 @@ DC IN
 Wire Wire Line
 	2250 7150 2600 7150
 Wire Wire Line
-	2400 7550 2400 7800
-Connection ~ 2400 7800
+	2400 7800 2400 7650
 Wire Wire Line
-	2600 7550 2400 7550
+	2400 7650 2600 7650
 Wire Wire Line
-	3000 8000 3200 8000
+	3150 6800 3350 6800
 $Comp
 L RASPI_IO_HEADER J1
 U 1 1 520597C0
@@ -1370,4 +1332,11 @@ Text GLabel 8000 1800 2    60   Input ~ 0
 Wire Wire Line
 	7950 1800 8000 1800
 Connection ~ 7950 1800
+Wire Wire Line
+	2400 7150 2400 7250
+Connection ~ 2400 7250
+Connection ~ 4300 7550
+Wire Wire Line
+	4300 7800 4300 7550
+Connection ~ 2400 7800
 $EndSCHEMATC

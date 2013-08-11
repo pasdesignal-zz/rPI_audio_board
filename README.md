@@ -1,7 +1,8 @@
 rPI_audio_board
 ===============
+Warning: this is a hardware project repository. You may find traces of code.
 
-a rPi daughter board for audio i/o and midi
+/a rPi daughter board for audio i/o and midi//
 
 These files are the entire KiCAD project folder for a work in progress. You are welcome to ask questions at noiseisgood.co.nz
 

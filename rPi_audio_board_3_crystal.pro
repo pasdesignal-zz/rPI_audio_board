@@ -1,0 +1,37 @@
+update=8/8/2013 10:12:16 PM
+last_client=eeschema
+[eeschema]
+version=1
+LibDir=
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=power
+LibName2=codecshield_-cache
+LibName3=rPi_audio_board_2-cache
+LibName4=rPi_audio_board-cache
+LibName5=F:/kicad_diy_libraries/diy_connectors
+LibName6=F:/kicad_diy_libraries/diy_diodes
+LibName7=F:/kicad_diy_libraries/diy_ics
+LibName8=F:/kicad_diy_libraries/diy_rcl
+LibName9=F:/kicad_diy_libraries/diy_regulators
+LibName10=F:/kicad_diy_libraries/diy_switches
+LibName11=F:/kicad_diy_libraries/diy_transformers
+LibName12=F:/kicad_diy_libraries/diy_transistors
+LibName13=F:/kicad_diy_libraries/diy_triac
+LibName14=F:/kicad_diy_libraries/diy_tubes
+LibName15=F:/kicad_diy_libraries/DRV135
+LibName16=F:/kicad_diy_libraries/PLL1705
+LibName17=F:/kicad_diy_libraries/PLL1705 (1)
+LibName18=F:/kicad_diy_libraries/WM8731
+LibName19=F:/Kicad Libraries Downloaded/lbr/micrel
+LibName20=F:/Kicad Libraries Downloaded/lbr/wolfson
+LibName21=F:/Kicad Libraries Downloaded/converted/microchip-5
+LibName22=F:/kicad_diy_libraries/MIC5225
+LibName23=F:/kicad_diy_libraries/MIC39100-5.0
+LibName24=F:/kicad_diy_libraries/MIC5207BM5
+LibName25=device
+LibName26=TI

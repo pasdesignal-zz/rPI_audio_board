@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Documents and Settings/skypetest/My Documents/Dropbox/Git/rPI_audio_board/rPi_audio_board_4.sch</source>
+    <date>8/11/2013 4:55:21 PM</date>
+    <tool>eeschema (2013-08-09 BZR 4280)-product</tool>
+  </design>
+  <components>
+    <comp ref="C17">
+      <value>18pF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>520013AA</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>18pF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>520013A1</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>12.288MHz</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CRYSTAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5200132E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5200123B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52001229</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5200120A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>520011ED</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52001183</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52001151</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>DRV135</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="rPi_audio_board_4-cache" part="DRV135"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51ECB9BB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>220uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51ECB0B4</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>220uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51ECB0AA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51ECB06E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51ECB063</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51D91763</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51D9175A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51D91337</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <libsource lib="rPi_audio_board_4-cache" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51D91324</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51D912F3</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10uH</value>
+      <libsource lib="rPi_audio_board_4-cache" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51D912DD</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>WM8731</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="rPi_audio_board_4-cache" part="WM8731"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51D91206</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>9V DC</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51CFF17D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_4X2</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CONN_4X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>51BC06D4</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5200CE14</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1.0uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5200CE26</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5200DE9A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1.0uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5200DF6C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1.0uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52021761</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MIC5207BM5</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="rPi_audio_board_4-cache" part="MIC5207BM5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52021ABD</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470pF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52021C78</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52021D4C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1600</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52021D59</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>520228E9</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Headphone Out</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CONNECTOR_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5202382D</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Output Left</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CONNECTOR_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5202416C</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5202A115</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5202A2CB</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>Output Right</value>
+      <libsource lib="rPi_audio_board_4-cache" part="CONNECTOR_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5202A669</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5202A675</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5202A67D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLE2426</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="rPi_audio_board_4-cache" part="TLE2426"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>520372B3</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1.0uF</value>
+      <libsource lib="rPi_audio_board_4-cache" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52037409</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>PIN OUT</value>
+      <libsource lib="rPi_audio_board_4-cache" part="HEADER_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52037E54</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5203812E</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>MODE SET</value>
+      <libsource lib="rPi_audio_board_4-cache" part="HEADER_6D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52038659</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>LINE IN</value>
+      <libsource lib="rPi_audio_board_4-cache" part="HEADER2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52040E1E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC39100-5.0</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="rPi_audio_board_4-cache" part="MIC39100-5.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52041399</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MIC5225</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="rPi_audio_board_4-cache" part="MIC5225"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5204148F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RASPI_IO_HEADER</value>
+      <libsource lib="rPi_audio_board_4-cache" part="RASPI_IO_HEADER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>520597C0</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>DRV135</value>
+      <footprint>MODULE</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="rPi_audio_board_4-cache" part="DRV135"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5206F205</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <libsource lib="rPi_audio_board_4-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5206F38F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="rPi_audio_board_4-cache" part="DRV135">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV135</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-Vout" type="output"/>
+        <pin num="2" name="-Sns" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Input" type="input"/>
+        <pin num="5" name="-Vcc" type="power_in"/>
+        <pin num="6" name="+Vcc" type="power_in"/>
+        <pin num="7" name="+Sns" type="input"/>
+        <pin num="8" name="+Vout" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="Header2">
+      <footprints>
+        <fp>PAD_6</fp>
+        <fp>BORNIER_6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Header2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="Header_6D">
+      <footprints>
+        <fp>PAD_6</fp>
+        <fp>BORNIER_6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Header_6D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="HEADER_8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="MIC39100-5.0">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC39100-5.0</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="Out" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="MIC5207BM5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5207BM5</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="Adj" type="unspc"/>
+        <pin num="5" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="MIC5225">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5225</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="unspc"/>
+        <pin num="5" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="RasPI_IO_Header">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RasPI_IO_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(3V3)" type="passive"/>
+        <pin num="2" name="5V" type="passive"/>
+        <pin num="3" name="GPIO0-R1/GPIO2-R2/SDA0/SDA1" type="passive"/>
+        <pin num="4" name="(5V)" type="passive"/>
+        <pin num="5" name="GPIO1-R1/GPIO3-R2/SCL0/SCL1" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GPIO4/GPCLK0" type="passive"/>
+        <pin num="8" name="GPIO14/TXD0/TXD1" type="passive"/>
+        <pin num="9" name="(GND)" type="passive"/>
+        <pin num="10" name="GPIO15/RXD0/RXD1" type="passive"/>
+        <pin num="11" name="GPIO17/RTS0/RTS1" type="passive"/>
+        <pin num="12" name="GPIO18/PCM_CLK/CE0-1/PWM0" type="passive"/>
+        <pin num="13" name="GPIO21-R1/GPIO27-R2/PCM_DOUT/GPCLK1" type="passive"/>
+        <pin num="14" name="(GND)" type="passive"/>
+        <pin num="15" name="GPIO22/SD1_CLK/ARM_TRST" type="passive"/>
+        <pin num="16" name="GPIO23/SD1_CMD/ARM_RTCK" type="passive"/>
+        <pin num="17" name="(3V3)" type="passive"/>
+        <pin num="18" name="GPIO24/SD1_DATA0/ARM_TDO" type="passive"/>
+        <pin num="19" name="GPIO10/MOSI0" type="passive"/>
+        <pin num="20" name="(GND)" type="passive"/>
+        <pin num="21" name="GPIO9/MISO0" type="passive"/>
+        <pin num="22" name="GPIO25/ARM_TCK" type="passive"/>
+        <pin num="23" name="GPIO11/SCKL0" type="passive"/>
+        <pin num="24" name="GPIO8/CE0-0" type="passive"/>
+        <pin num="25" name="(GND)" type="passive"/>
+        <pin num="26" name="GPIO7/CE1-0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="TLE2426">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLE2426</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Out" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="Vin" type="input"/>
+        <pin num="8" name="NR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="WM8731">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WM8731</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DBVDD" type="power_in"/>
+        <pin num="2" name="CLKOUT" type="output"/>
+        <pin num="3" name="BCLK" type="input"/>
+        <pin num="4" name="DACDIN" type="input"/>
+        <pin num="5" name="DACLRC" type="input"/>
+        <pin num="6" name="ADCDOUT" type="output"/>
+        <pin num="7" name="ADCLRC" type="input"/>
+        <pin num="8" name="HPVDD" type="power_in"/>
+        <pin num="9" name="LHPOUT" type="output"/>
+        <pin num="10" name="RHPOUT" type="output"/>
+        <pin num="11" name="HPGND" type="power_in"/>
+        <pin num="12" name="LOUT" type="output"/>
+        <pin num="13" name="ROUT" type="output"/>
+        <pin num="14" name="AVDD" type="power_in"/>
+        <pin num="15" name="AGND" type="power_in"/>
+        <pin num="16" name="VMID" type="power_in"/>
+        <pin num="17" name="MICBIAS" type="output"/>
+        <pin num="18" name="MICIN" type="input"/>
+        <pin num="19" name="RLINEIN" type="input"/>
+        <pin num="20" name="LLINEIN" type="input"/>
+        <pin num="21" name="MODE" type="input"/>
+        <pin num="22" name="CSB" type="input"/>
+        <pin num="23" name="SDIN" type="input"/>
+        <pin num="24" name="SCLK" type="input"/>
+        <pin num="25" name="XTI/MCLK" type="input"/>
+        <pin num="26" name="XTO" type="input"/>
+        <pin num="27" name="DCVDD" type="power_in"/>
+        <pin num="28" name="DGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="CONN_2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="CONN_4X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="CONNECTOR_2">
+      <footprints>
+        <fp>PAD_2</fp>
+        <fp>BORNIER_2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONNECTOR_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="CONNECTOR_3">
+      <footprints>
+        <fp>PAD_3</fp>
+        <fp>BORNIER_3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONNECTOR_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="CP1">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rPi_audio_board_4-cache" part="CRYSTAL">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="rPi_audio_board_4-cache">
+      <uri>rPi_audio_board_4-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="">
+      <node ref="U1" pin="4"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="PCM_CLK">
+      <node ref="R5" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="4" name="">
+      <node ref="P5" pin="4"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="5" name="">
+      <node ref="R12" pin="2"/>
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="6" name="CLKOUT">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="7" name="DVDD">
+      <node ref="P5" pin="6"/>
+      <node ref="L2" pin="2"/>
+      <node ref="P5" pin="5"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="8" name="">
+      <node ref="R5" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="9" name="">
+      <node ref="R8" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="10" name="">
+      <node ref="U5" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="11" name="">
+      <node ref="U4" pin="8"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="12" name="">
+      <node ref="U5" pin="21"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="13" name="LOUT">
+      <node ref="U5" pin="12"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="14" name="">
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="8"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="15" name="">
+      <node ref="P3" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="16" name="">
+      <node ref="U5" pin="22"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="17" name="">
+      <node ref="P6" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="18" name="">
+      <node ref="P6" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="19" name="GPIO4">
+      <node ref="J3" pin="6"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="20" name="">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="21" name="I2C_SDA">
+      <node ref="J1" pin="3"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="22" name="">
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="23" name="I2C_CLK">
+      <node ref="J3" pin="7"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="24" name="">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="25" name="">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="26" name="">
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="27" name="">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="28" name="">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="29" name="">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="30" name="">
+      <node ref="R13" pin="1"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="31" name="+5VDC">
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="32" name="DC IN">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="33" name="">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="34" name="">
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="35" name="">
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="36" name="">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="37" name="">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="38" name="">
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="39" name="">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="40" name="">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="41" name="">
+      <node ref="C17" pin="1"/>
+      <node ref="X1" pin="2"/>
+      <node ref="U5" pin="25"/>
+    </net>
+    <net code="42" name="">
+      <node ref="P4" pin="1"/>
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="43" name="">
+      <node ref="U5" pin="19"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="44" name="GPIO15">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="45" name="">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="46" name="+3.3VDC">
+      <node ref="U5" pin="8"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="47" name="">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="48" name="">
+      <node ref="U5" pin="26"/>
+      <node ref="C14" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="49" name="">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="50" name="">
+      <node ref="U5" pin="27"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="51" name="PCM_DOUT">
+      <node ref="J3" pin="4"/>
+      <node ref="J2" pin="6"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="52" name="PCM_FS">
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="53" name="PCM_DIN">
+      <node ref="J2" pin="5"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="54" name="+9VDC">
+      <node ref="U6" pin="6"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="55" name="VREF">
+      <node ref="U7" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="56" name="RHPOUT">
+      <node ref="C8" pin="1"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="57" name="LHPOUT">
+      <node ref="U5" pin="9"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="58" name="">
+      <node ref="C8" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="59" name="">
+      <node ref="C9" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="60" name="">
+      <node ref="R9" pin="1"/>
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="61" name="">
+      <node ref="U5" pin="24"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="62" name="ROUT">
+      <node ref="U7" pin="4"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="63" name="">
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="64" name="">
+      <node ref="L1" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="65" name="DGND">
+      <node ref="J1" pin="6"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P5" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U5" pin="28"/>
+      <node ref="U5" pin="15"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="7"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U5" pin="11"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J1" pin="14"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="66" name="">
+      <node ref="R6" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="67" name="">
+      <node ref="U3" pin="4"/>
+    </net>
+  </nets>
+</export>

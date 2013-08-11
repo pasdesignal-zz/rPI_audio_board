@@ -1,38 +1,27 @@
-update=8/11/2013 5:20:37 PM
-last_client=cvpcb
-[eeschema]
+update=8/11/2013 10:25:59 PM
+last_client=pcbnew
+[pcbnew]
 version=1
 PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=rPi_audio_board_4-cache
-LibName2=device
-LibName3=F:/Kicad Libraries Downloaded/library/power
-LibName4=F:/Kicad Libraries Downloaded/library/w_analog
-LibName5=F:/Kicad Libraries Downloaded/library/w_connectors
-LibName6=F:/Kicad Libraries Downloaded/library/w_device
-LibName7=F:/Kicad Libraries Downloaded/library/w_logic
-LibName8=F:/Kicad Libraries Downloaded/library/w_memory
-LibName9=F:/Kicad Libraries Downloaded/library/w_microcontrollers
-LibName10=F:/Kicad Libraries Downloaded/library/w_opto
-LibName11=F:/Kicad Libraries Downloaded/library/w_relay
-LibName12=F:/Kicad Libraries Downloaded/library/w_rtx
-LibName13=F:/Kicad Libraries Downloaded/library/w_transistor
-LibName14=F:/Kicad Libraries Downloaded/library/w_vacuum
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[pcbnew]
+LastNetListRead=rPi_audio_board_401.net
+UseCmpFile=1
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=3.79984
+PadSizeV=1.80086
+PcbTextSizeV=1
+PcbTextSizeH=1
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -49,7 +38,7 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=F:/Kicad Libraries Downloaded/modules/w_vacuum
+LibName17=F:/Kicad Libraries Downloaded/modules/w_to
 LibName18=F:/Kicad Libraries Downloaded/modules/w_battery_holders
 LibName19=F:/Kicad Libraries Downloaded/modules/w_capacitors
 LibName20=F:/Kicad Libraries Downloaded/modules/w_conn_9159
@@ -93,5 +82,3 @@ LibName57=F:/Kicad Libraries Downloaded/modules/w_smd_resistors
 LibName58=F:/Kicad Libraries Downloaded/modules/w_smd_strip
 LibName59=F:/Kicad Libraries Downloaded/modules/w_smd_trans
 LibName60=F:/Kicad Libraries Downloaded/modules/w_switch
-LibName61=F:/Kicad Libraries Downloaded/modules/w_to
-LibDir=

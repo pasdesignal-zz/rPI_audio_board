@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:w_vacuum
+LIBS:Paspu_IO_Header
 LIBS:w_analog
 LIBS:w_connectors
 LIBS:w_device
@@ -40,7 +41,13 @@ LIBS:w_opto
 LIBS:w_relay
 LIBS:w_rtx
 LIBS:w_transistor
-LIBS:rPi_audio_board_4_no_MIDI-cache
+LIBS:MIC5207BM5
+LIBS:MIC5225
+LIBS:MIC39100-5.0
+LIBS:PLL1705
+LIBS:PLL1705 (1)
+LIBS:WM8731
+LIBS:rPi_audio_board_4-cache
 EELAYER 24 0
 EELAYER END
 $Descr A3 16535 11693
@@ -568,17 +575,6 @@ F 3 "" H 11500 3050 60  0000 C CNN
 $EndComp
 Text GLabel 14000 3100 3    60   Input ~ 0
 +9VDC
-$Comp
-L DRV135 U7
-U 1 1 5202A658
-P 14250 1950
-F 0 "U7" H 14250 1850 50  0000 C CNN
-F 1 "DRV135" H 14250 2050 50  0000 C CNN
-F 2 "MODULE" H 14250 1950 50  0001 C CNN
-F 3 "DOCUMENTATION" H 14250 1950 50  0001 C CNN
-	1    14250 1950
-	1    0    0    -1  
-$EndComp
 Text GLabel 13250 2250 0    60   Input ~ 0
 VREF
 $Comp
@@ -1040,8 +1036,6 @@ Wire Wire Line
 Wire Wire Line
 	10100 5850 8300 5850
 Wire Wire Line
-	7900 1800 7450 1800
-Wire Wire Line
 	12200 6350 13250 6350
 Wire Wire Line
 	14350 6450 14250 6450
@@ -1349,4 +1343,31 @@ Wire Wire Line
 	2400 10300 2400 10550
 Text Notes 3500 9050 0    60   ~ 0
 SMd poarts sizes: 0805 seems standard for resistors. Try this for caps too and inductors if possible.\n
+$Comp
+L DRV135 U?
+U 1 1 5206F205
+P 14250 1950
+F 0 "U?" H 14250 1850 50  0000 C CNN
+F 1 "DRV135" H 14250 2050 50  0000 C CNN
+F 2 "MODULE" H 14250 1950 50  0001 C CNN
+F 3 "DOCUMENTATION" H 14250 1950 50  0001 C CNN
+	1    14250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5206F38F
+P 7700 1800
+F 0 "R?" V 7780 1800 40  0000 C CNN
+F 1 "10k" V 7707 1801 40  0000 C CNN
+F 2 "" V 7630 1800 30  0000 C CNN
+F 3 "" H 7700 1800 30  0000 C CNN
+	1    7700 1800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8000 1800 2    60   Input ~ 0
++5VDC
+Wire Wire Line
+	7950 1800 8000 1800
+Connection ~ 7950 1800
 $EndSCHEMATC

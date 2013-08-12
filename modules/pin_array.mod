@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  8/11/2013 4:49:37 PM
+PCBNEW-LibModule-V1  8/12/2013 11:06:09 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -18,8 +18,10 @@ pin_array_13x2
 pin_array_13x2reversed
 pin_array_3x2
 pin_array_4x2
+pin_array_4x2reversed
 pin_array_6x2
 pin_array_8x2
+pinarray8x1
 $EndINDEX
 $MODULE PIN_ARRAY-6X1
 Po 0 0 0 15 41402119 00000000 ~~
@@ -2126,6 +2128,83 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_4x2
+$MODULE pin_array_4x2reversed
+Po 0 0 0 15 5208C18D 00000000 ~~
+Li pin_array_4x2reversed
+Cd 2 x 13 pins connector
+Kw CONN
+Sc 0
+AR /51BC06D4
+Op 0 0 0
+T0 -7.62 -3.81 1.016 1.016 0 0.2032 N V 21 N "J2"
+T1 -8.40994 0.55372 1.016 1.016 0 0.2032 N V 21 N ""
+DS -3.1496 -0.65278 -13.33754 -0.65278 0.15 21
+DS -13.28166 -5.7277 -3.14452 -5.6896 0.15 21
+DS -13.335 -0.635 -13.335 -5.715 0.2032 21
+DS -3.16992 -5.715 -3.16992 -0.635 0.2032 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "N-0000047"
+Po -12.065 -4.445
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "DVDD"
+Po -12.065 -1.905
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "PCM_CLK"
+Po -9.525 -4.445
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 7 "PCM_FS"
+Po -9.525 -1.905
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "PCM_DIN"
+Po -6.985 -4.445
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "PCM_DOUT"
+Po -6.985 -1.905
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "DGND"
+Po -4.445 -4.445
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "DGND"
+Po -4.445 -1.905
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_13x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_4x2reversed
 $MODULE pin_array_6x2
 Po 0 0 0 15 3FB38A8B 00000000 ~~
 Li pin_array_6x2
@@ -2364,4 +2443,76 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_8x2
+$MODULE pinarray8x1
+Po 0 0 0 15 00200000 00000000 ~~
+Li pinarray8x1
+Cd Connecteur 8 pins
+Kw CONN DEV
+Sc 0
+AR /52037E54
+Op 0 0 0
+T0 -6.35 -2.54 1.72974 1.08712 0 0.3048 N V 21 N "J3"
+T1 5.08 -2.54 1.524 1.016 0 0.3048 N V 21 N "PIN OUT"
+DS -10.16 -1.27 10.16 -1.27 0.3048 21
+DS 10.16 -1.27 10.16 1.27 0.3048 21
+DS 10.16 1.27 -10.16 1.27 0.3048 21
+DS -10.16 1.27 -10.16 -1.27 0.3048 21
+DS -7.62 1.27 -7.62 -1.27 0.3048 21
+$PAD
+Sh "1" R 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 6 "PCM_DIN"
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "2" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 5 "PCM_CLK"
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "3" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 8 "PCM_FS"
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 7 "PCM_DOUT"
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "5" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 4 "N-0000029"
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "6" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 1 "GPIO4"
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "I2C_CLK"
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 3 "I2C_SDA"
+Po 8.89 0
+$EndPAD
+$EndMODULE pinarray8x1
 $EndLIBRARY

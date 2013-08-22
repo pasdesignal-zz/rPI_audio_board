@@ -1,5 +1,19 @@
 EESchema Schematic File Version 2
+LIBS:w_vacuum
+LIBS:device
+LIBS:power
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:w_logic
+LIBS:w_memory
+LIBS:w_microcontrollers
+LIBS:w_opto
+LIBS:w_relay
+LIBS:w_rtx
+LIBS:w_transistor
 LIBS:rPi_audio_board_4-cache
+LIBS:rPi_audio_board_V0.4-cache
 EELAYER 24 0
 EELAYER END
 $Descr A3 16535 11693
@@ -557,7 +571,7 @@ Text GLabel 8750 7050 0    60   Input ~ 0
 +3.3VDC
 Text GLabel 6500 1600 2    60   Output ~ 0
 DVDD
-Text Notes 4750 1350 0    60   ~ 0
+Text Notes 4650 1250 0    60   ~ 0
 Check pin orientation\n because P5 is mounted upside down!
 $Comp
 L TLE2426 U4
@@ -1116,8 +1130,8 @@ Wire Wire Line
 	1450 1400 950  1400
 Wire Wire Line
 	1300 1500 1450 1500
-Text Notes 7450 1300 0    60   ~ 0
-A header breakout for debugging \nand analysis of digital signals
+Text Notes 7350 1100 0    60   ~ 0
+A header breakout for debugging \nand analysis of digital signals.\nNot implemented on first boards
 Text Notes 12500 4450 0    60   ~ 0
 This crystal can be replaced eventually\nwith a programmable PLL clock
 Wire Wire Line
@@ -1189,7 +1203,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 1400 3050 1400
 Connection ~ 2050 10300
-Text Notes 3500 9250 0    60   ~ 0
+Text Notes 3000 8500 0    60   ~ 0
 SMd poarts sizes: 0805 seems standard for resistors. Try this for caps too and inductors if possible.\n
 $Comp
 L DRV135 U7

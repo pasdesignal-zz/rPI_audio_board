@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 8/22/2013 6:04:17 PM
+PCBNEW-BOARD Version 2 date 8/22/2013 10:26:15 PM
 
 # Created by Pcbnew(2013-08-20 BZR 4294)-product
 
@@ -1788,10 +1788,10 @@ Ne 0 ""
 Po 0 -6.25094
 $EndPAD
 $SHAPE3D
-Na "walter/conn_misc/dc_socket.wrl"
+Na "connectors/POWER_21.wrl"
 Sc 1 1 1
 Of 0 0 0
-Ro 0 0 0
+Ro 0 0 270
 $EndSHAPE3D
 $EndMODULE dc_socket
 $MODULE mors_3p

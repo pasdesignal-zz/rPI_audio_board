@@ -6,6 +6,8 @@ a rPi daughter board for high quality audio io
 
 This is a developing extension board for the raspberry pi model rev.B
 
+It is untested as yet, and there are no guarantees or liability. Use these files at your own risk.
+
 It is intended for use with aSOC i2s audio drivers and requires a kernel build, which you can read more about at my blog or on the raspberry pi forums.
 
 This is also an experiment with using github for hardware file sharing and revision control. I hope others will join me developing this hardware as an opensource project and work with github to facilitate the collabortation.

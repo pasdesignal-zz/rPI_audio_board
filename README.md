@@ -15,3 +15,7 @@ This is meant to be an open source hardware project under the creative commons l
 pasdesignal 
 noiseisgood.co.nz
 Aug 2013
+
+Need a great library for Kicad?
+Heres a great place to get recent builds and an awesome library which I use in this project:
+escalalibre.com/edwt/

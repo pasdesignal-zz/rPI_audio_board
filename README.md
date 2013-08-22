@@ -1,7 +1,8 @@
 rPI_audio_board
 ===============
-
-a rPi daughter board for audio io and midi
+best current version to build is v0.4 (updated 22 Aug 2013)
+-------------------------------------
+a rPi daughter board for high quality audio io 
 
 This is a developing extension board for the raspberry pi model rev.B
 
@@ -9,3 +10,8 @@ It is intended for use with aSOC i2s audio drivers and requires a kernel build, 
 
 This is also an experiment with using github for hardware file sharing and revision control. I hope others will join me developing this hardware as an opensource project and work with github to facilitate the collabortation.
 
+This is meant to be an open source hardware project under the creative commons license, but I haven't got around to figuring out what that actually means yet.
+
+pasdesignal 
+noiseisgood.co.nz
+Aug 2013

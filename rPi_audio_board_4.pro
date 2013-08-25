@@ -1,5 +1,5 @@
-update=8/22/2013 4:41:06 PM
-last_client=eeschema
+update=8/24/2013 12:41:42 PM
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -53,3 +53,5 @@ LibName11=library/w_relay
 LibName12=library/w_rtx
 LibName13=library/w_transistor
 LibName14=rPi_audio_board_4-cache
+[general]
+version=1

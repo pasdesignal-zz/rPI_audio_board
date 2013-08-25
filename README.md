@@ -14,6 +14,8 @@ This is also an experiment with using github for hardware file sharing and revis
 
 This is meant to be an open source hardware project under the creative commons license, but I haven't got around to figuring out what that actually means yet.
 
+The schematic design and layout was done using KiCad http://kicad.sourceforge.net, a Free Software EDA tool for Linux, Windows and Mac OS. You will need KiCad to open the .sch or .brd files - gEDA or Eagle will not work.
+
 pasdesignal 
 noiseisgood.co.nz
 Aug 2013

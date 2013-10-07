@@ -16,9 +16,11 @@ If you are interested in purchasing a ready made board, they will be available s
 
 The schematic design and layout was done using KiCad http://kicad.sourceforge.net, a Free Software EDA tool for Linux, Windows and Mac OS. (But it works best in Windows) You will need KiCad to open the .sch or .brd files - gEDA or Eagle will not work.
 
-pasdesignal 
-noiseisgood.co.nz
-Aug 2013
+pasdesignal
+
+http://www.noiseisgood.co.nz
+
+Oct 2013
 
 License: All designs are released under 
 

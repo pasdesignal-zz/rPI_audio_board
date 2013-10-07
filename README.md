@@ -14,13 +14,21 @@ This is also an experiment with using github for hardware file sharing and revis
 
 If you are interested in purchasing a ready made board, they will be available soon via Tindie.
 
-This is meant to be an open source hardware project under the creative commons license, but I haven't got around to reading the finer details of what that actually means yet.
-
 The schematic design and layout was done using KiCad http://kicad.sourceforge.net, a Free Software EDA tool for Linux, Windows and Mac OS. (But it works best in Windows) You will need KiCad to open the .sch or .brd files - gEDA or Eagle will not work.
 
 pasdesignal 
 noiseisgood.co.nz
 Aug 2013
+
+License: All designs are released under 
+
+Creative Commons NonCommercial-ShareAlike 
+
+CC BY-NC-SA
+
+![CC BY-NC-SA](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
+
+Please contact me for commercial opportunities. 
 
 Need a great library for Kicad?
 Heres a great place to get recent builds and an awesome library which I use in this project:

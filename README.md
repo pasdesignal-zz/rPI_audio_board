@@ -32,4 +32,4 @@ Please contact me for commercial opportunities.
 
 Need a great library for Kicad?
 Heres a great place to get recent builds and an awesome library which I use in this project:
-escalalibre.com/edwt/
+http://www.escalalibre.com/edwt/

@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  lun 29 apr 2013 18:02:42 CEST
+PCBNEW-LibModule-V1  9/27/2013 5:16:48 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,6 +10,7 @@ arduino_mega_header
 arduino_nano_header
 arduino_pin_socket_8
 dc_socket
+dc_socket_pasdesignal
 microsd_socket
 molex_6p6c
 sd_socket
@@ -1644,6 +1645,48 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE dc_socket
+$MODULE dc_socket_pasdesignal
+Po 0 0 0 15 524514A4 00000000 ~~
+Li dc_socket_pasdesignal
+Cd Socket, DC power supply
+Sc 0
+AR /51CFF17D
+Op 0 0 0
+T0 9.58 6.48 1.524 1.524 0 0.3048 N I 21 N "P1"
+T1 -5.72 1.98 1.524 1.524 900 0.3048 N V 21 N "9V DC"
+DS -4.50088 2.79908 4.50088 2.79908 0.381 21
+DS -4.50088 7.29996 4.50088 7.29996 0.381 21
+DS 4.50088 7.29996 4.50088 -7.29996 0.381 21
+DS 4.50088 -7.29996 -4.50088 -7.29996 0.381 21
+DS -4.50088 -7.29996 -4.50088 7.29996 0.381 21
+$PAD
+Sh "3" O 1.99898 4.0005 0 0 0
+Dr 1.00076 0 0 O 1.00076 2.99974
+At STD N 00E0FFFF
+Ne 1 "AGND"
+Po 5.30098 -3.50012
+$EndPAD
+$PAD
+Sh "1" O 4.0005 1.99898 0 0 0
+Dr 2.99974 0 0 O 2.99974 1.00076
+At STD N 00E0FFFF
+Ne 1 "AGND"
+Po 0 -0.24892
+$EndPAD
+$PAD
+Sh "2" O 4.50088 1.99898 0 0 0
+Dr 3.50012 0 0 O 3.50012 1.00076
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -6.25094
+$EndPAD
+$SHAPE3D
+Na "walter/conn_misc/dc_socket.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE dc_socket_pasdesignal
 $MODULE microsd_socket
 Po 0 0 0 15 515DDC2E 00000000 ~~
 Li microsd_socket

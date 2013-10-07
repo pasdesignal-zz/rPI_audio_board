@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
+LIBS:rPi_audio_board_V0.4-cache
+LIBS:rPi_audio_board_4-cache
 LIBS:w_vacuum
-LIBS:device
 LIBS:power
 LIBS:w_analog
 LIBS:w_connectors
@@ -12,8 +13,7 @@ LIBS:w_opto
 LIBS:w_relay
 LIBS:w_rtx
 LIBS:w_transistor
-LIBS:rPi_audio_board_4-cache
-LIBS:rPi_audio_board_V0.4-cache
+LIBS:rPi_audio_board_V0.5-cache
 EELAYER 24 0
 EELAYER END
 $Descr A3 16535 11693
@@ -274,8 +274,6 @@ F 3 "" H 10100 5000 60  0001 C CNN
 	1    10100 5000
 	-1   0    0    1   
 $EndComp
-Text GLabel 10100 4650 1    60   Input ~ 0
-DVDD
 $Comp
 L AGND #PWR01
 U 1 1 51D91263
@@ -306,29 +304,16 @@ Text GLabel 4200 1800 0    60   Input ~ 0
 PCM_DIN
 Text GLabel 4650 1700 0    60   Input ~ 0
 PCM_CLK
-Text GLabel 950  1400 0    60   Output ~ 0
+Text GLabel 1350 1400 0    60   Output ~ 0
 I2C_CLK
-Text GLabel 1400 1300 0    60   Output ~ 0
+Text GLabel 900  1300 0    60   Output ~ 0
 I2C_SDA
 Text GLabel 4900 7150 2    60   Output ~ 0
 +3.3VDC
 Text GLabel 3250 1200 2    60   Input ~ 0
 +5VDC
-Text GLabel 4850 6000 2    60   Output ~ 0
-+5VDC
 Text GLabel 6400 4450 2    60   Output ~ 0
 +9VDC
-$Comp
-L GNDPWR #PWR02
-U 1 1 51CFF2E2
-P 2050 10550
-F 0 "#PWR02" H 2050 10600 40  0001 C CNN
-F 1 "GNDPWR" H 2050 10450 40  0000 C CNN
-F 2 "" H 2050 10550 60  0001 C CNN
-F 3 "" H 2050 10550 60  0001 C CNN
-	1    2050 10550
-	1    0    0    -1  
-$EndComp
 $Comp
 L CONN_2 P1
 U 1 1 51CFF17D
@@ -375,9 +360,9 @@ F 3 "" H 2400 7450 60  0000 C CNN
 	1    2400 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3150 8000 0    60   Input ~ 0
+Text GLabel 3050 8000 0    60   Input ~ 0
 GPIO4
-Text GLabel 1300 1500 0    60   BiDi ~ 0
+Text GLabel 850  1500 0    60   BiDi ~ 0
 GPIO4
 $Comp
 L C C5
@@ -672,6 +657,150 @@ F 3 "DOCUMENTATION" H 3350 7400 50  0001 C CNN
 	1    3350 7400
 	1    0    0    -1  
 $EndComp
+Text Notes 7350 1100 0    60   ~ 0
+A header breakout for debugging \nand analysis of digital signals.\nNot implemented on first boards
+Text Notes 12500 4450 0    60   ~ 0
+This crystal can be replaced eventually\nwith a programmable PLL clock
+$Comp
+L DGND #PWR06
+U 1 1 5204665C
+P 4550 2150
+F 0 "#PWR06" H 4550 2150 40  0001 C CNN
+F 1 "DGND" H 4550 2080 40  0000 C CNN
+F 2 "" H 4550 2150 60  0000 C CNN
+F 3 "" H 4550 2150 60  0000 C CNN
+	1    4550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR07
+U 1 1 52046AB5
+P 1300 2750
+F 0 "#PWR07" H 1300 2750 40  0001 C CNN
+F 1 "DGND" H 1300 2680 40  0000 C CNN
+F 2 "" H 1300 2750 60  0000 C CNN
+F 3 "" H 1300 2750 60  0000 C CNN
+	1    1300 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 9750 2    60   Output ~ 0
+DC IN
+Text GLabel 1800 4750 0    60   Input ~ 0
+DC IN
+Text GLabel 2200 6000 0    60   Input ~ 0
+DC IN
+Text GLabel 2250 7150 0    60   Input ~ 0
+DC IN
+$Comp
+L RASPI_IO_HEADER J1
+U 1 1 520597C0
+P 2250 1800
+F 0 "J1" H 2250 2500 60  0000 C CNN
+F 1 "RASPI_IO_HEADER" H 2250 1100 60  0000 C CNN
+F 2 "" H 2250 1800 60  0000 C CNN
+F 3 "" H 2250 1800 60  0000 C CNN
+	1    2250 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 2800 8300 0    60   ~ 0
+\n\n\n
+$Comp
+L DRV135 U7
+U 1 1 5206F205
+P 14250 1950
+F 0 "U7" H 14250 1850 50  0000 C CNN
+F 1 "DRV135" H 14250 2050 50  0000 C CNN
+F 2 "MODULE" H 14250 1950 50  0001 C CNN
+F 3 "DOCUMENTATION" H 14250 1950 50  0001 C CNN
+	1    14250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR_3 P6
+U 1 1 5208BF69
+P 15400 1850
+F 0 "P6" H 15400 2050 50  0000 L CNN
+F 1 "Bal R" H 15400 1650 50  0000 L CNN
+F 2 "" H 15400 1850 60  0000 C CNN
+F 3 "" H 15400 1850 60  0000 C CNN
+	1    15400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR_3 P3
+U 1 1 5208C698
+P 10350 1850
+F 0 "P3" H 10350 2050 50  0000 L CNN
+F 1 "Bal L" H 10400 1550 50  0000 L CNN
+F 2 "" H 10350 1850 60  0000 C CNN
+F 3 "" H 10350 1850 60  0000 C CNN
+	1    10350 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONNECTOR_3 P4
+U 1 1 5208C983
+P 13400 6650
+F 0 "P4" H 13400 6850 50  0000 L CNN
+F 1 "CONNECTOR_3" H 13400 6450 50  0000 L CNN
+F 2 "" H 13400 6650 60  0000 C CNN
+F 3 "" H 13400 6650 60  0000 C CNN
+	1    13400 6650
+	1    0    0    1   
+$EndComp
+$Comp
+L DGND #PWR09
+U 1 1 5208D2ED
+P 7450 2300
+F 0 "#PWR09" H 7450 2300 40  0001 C CNN
+F 1 "DGND" H 7450 2230 40  0000 C CNN
+F 2 "" H 7450 2300 60  0000 C CNN
+F 3 "" H 7450 2300 60  0000 C CNN
+	1    7450 2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12200 6750
+NoConn ~ 12200 6850
+Text Notes 6450 10100 0    60   ~ 0
+These caps are SMD electrolytic cans. 10mm?
+$Comp
+L FUSE F1
+U 1 1 522071AC
+P 2250 9750
+F 0 "F1" H 2350 9800 40  0000 C CNN
+F 1 "PolyFuse" H 2200 9900 40  0000 C CNN
+F 2 "" H 2250 9750 60  0000 C CNN
+F 3 "" H 2250 9750 60  0000 C CNN
+	1    2250 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TVS_BIPOL D1
+U 1 1 522071C0
+P 2600 9850
+F 0 "D1" V 2600 9750 40  0000 C CNN
+F 1 "SMAJ12A" V 2450 9850 40  0000 C CNN
+F 2 "" H 2600 9850 60  0000 C CNN
+F 3 "" H 2600 9850 60  0000 C CNN
+	1    2600 9850
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4100 7600
+$Comp
+L HEADER_2X2 J4
+U 1 1 5220841D
+P 8900 4700
+F 0 "J4" H 8900 4850 60  0000 C CNN
+F 1 "Power" H 8900 4550 60  0000 C CNN
+F 2 "" H 8900 4700 60  0000 C CNN
+F 3 "" H 8900 4700 60  0000 C CNN
+	1    8900 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 4650 0    60   Input ~ 0
+DVDD
+Text GLabel 9250 4750 2    60   Output ~ 0
++5VDC
 Wire Wire Line
 	13350 4750 13600 4750
 Connection ~ 12650 5750
@@ -766,7 +895,7 @@ Connection ~ 4550 1900
 Wire Wire Line
 	3250 2100 3050 2100
 Wire Wire Line
-	1300 2600 3250 2600
+	950  2600 3250 2600
 Connection ~ 1300 2600
 Connection ~ 3250 2100
 Wire Wire Line
@@ -832,12 +961,10 @@ Wire Wire Line
 	4100 7150 4900 7150
 Connection ~ 4300 7150
 Wire Wire Line
-	1800 7800 4300 7800
-Wire Wire Line
 	1800 6500 4250 6500
 Connection ~ 1800 6500
 Wire Wire Line
-	4050 6000 4850 6000
+	4050 6000 7500 6000
 Connection ~ 4250 6000
 Wire Wire Line
 	4250 6500 4250 6400
@@ -877,7 +1004,7 @@ Connection ~ 8950 10300
 Wire Wire Line
 	12350 1450 12500 1450
 Wire Wire Line
-	10650 1500 10650 1850
+	10650 1350 10650 1850
 Wire Wire Line
 	10650 1950 10650 2400
 Wire Wire Line
@@ -1113,64 +1240,23 @@ Wire Wire Line
 	4650 1700 4700 1700
 Connection ~ 2400 7650
 Connection ~ 2400 7150
-Connection ~ 3350 8000
 Connection ~ 2600 7650
 Connection ~ 4050 6000
 Wire Wire Line
-	1400 1300 1450 1300
-Wire Wire Line
-	1450 1400 950  1400
-Wire Wire Line
-	1300 1500 1450 1500
-Text Notes 7350 1100 0    60   ~ 0
-A header breakout for debugging \nand analysis of digital signals.\nNot implemented on first boards
-Text Notes 12500 4450 0    60   ~ 0
-This crystal can be replaced eventually\nwith a programmable PLL clock
-Wire Wire Line
 	4550 1900 4550 2150
-$Comp
-L DGND #PWR06
-U 1 1 5204665C
-P 4550 2150
-F 0 "#PWR06" H 4550 2150 40  0001 C CNN
-F 1 "DGND" H 4550 2080 40  0000 C CNN
-F 2 "" H 4550 2150 60  0000 C CNN
-F 3 "" H 4550 2150 60  0000 C CNN
-	1    4550 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 1600 1300 2750
-$Comp
-L DGND #PWR07
-U 1 1 52046AB5
-P 1300 2750
-F 0 "#PWR07" H 1300 2750 40  0001 C CNN
-F 1 "DGND" H 1300 2680 40  0000 C CNN
-F 2 "" H 1300 2750 60  0000 C CNN
-F 3 "" H 1300 2750 60  0000 C CNN
-	1    1300 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 5150 1800 7950
 Connection ~ 1800 7800
 Wire Wire Line
 	2050 9950 2050 10550
-Text GLabel 3300 9750 2    60   Output ~ 0
-DC IN
 Wire Wire Line
 	2050 9750 2050 9750
-Text GLabel 1800 4750 0    60   Input ~ 0
-DC IN
 Wire Wire Line
 	1800 5150 2500 5150
-Text GLabel 2200 6000 0    60   Input ~ 0
-DC IN
 Wire Wire Line
 	2450 6000 2200 6000
-Text GLabel 2250 7150 0    60   Input ~ 0
-DC IN
 Wire Wire Line
 	2250 7150 2600 7150
 Wire Wire Line
@@ -1178,36 +1264,9 @@ Wire Wire Line
 Wire Wire Line
 	2400 7650 2600 7650
 Wire Wire Line
-	3150 8000 3350 8000
-$Comp
-L RASPI_IO_HEADER J1
-U 1 1 520597C0
-P 2250 1800
-F 0 "J1" H 2250 2500 60  0000 C CNN
-F 1 "RASPI_IO_HEADER" H 2250 1100 60  0000 C CNN
-F 2 "" H 2250 1800 60  0000 C CNN
-F 3 "" H 2250 1800 60  0000 C CNN
-	1    2250 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	3050 1200 3050 1300
 Wire Wire Line
 	3250 1400 3050 1400
-Connection ~ 2050 10300
-Text Notes 2800 8300 0    60   ~ 0
-Diode protection for SMD LDO's\n\nSeries poly fuse and shunt bi-directional junction MOV \n\nJumper for disconnecting 5v supply to rPi\n\nPolarity protection - series low Fv drop diode?
-$Comp
-L DRV135 U7
-U 1 1 5206F205
-P 14250 1950
-F 0 "U7" H 14250 1850 50  0000 C CNN
-F 1 "DRV135" H 14250 2050 50  0000 C CNN
-F 2 "MODULE" H 14250 1950 50  0001 C CNN
-F 3 "DOCUMENTATION" H 14250 1950 50  0001 C CNN
-	1    14250 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 7150 2400 7250
 Connection ~ 2400 7250
@@ -1215,17 +1274,6 @@ Connection ~ 4300 7550
 Wire Wire Line
 	4300 7800 4300 7550
 Connection ~ 2400 7800
-$Comp
-L GNDPWR #PWR08
-U 1 1 5208B6E7
-P 1800 7950
-F 0 "#PWR08" H 1800 8000 40  0001 C CNN
-F 1 "GNDPWR" H 1800 7850 40  0000 C CNN
-F 2 "" H 1800 7950 60  0001 C CNN
-F 3 "" H 1800 7950 60  0001 C CNN
-	1    1800 7950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 9500 9550 9500
 Wire Wire Line
@@ -1234,53 +1282,20 @@ Wire Wire Line
 	9300 9800 9300 9700
 Wire Wire Line
 	9300 9700 9550 9700
-$Comp
-L CONNECTOR_3 P6
-U 1 1 5208BF69
-P 15400 1850
-F 0 "P6" H 15400 2050 50  0000 L CNN
-F 1 "CONNECTOR_3" H 15400 1650 50  0000 L CNN
-F 2 "" H 15400 1850 60  0000 C CNN
-F 3 "" H 15400 1850 60  0000 C CNN
-	1    15400 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15100 1950 15350 1950
 Wire Wire Line
 	15100 1850 15350 1850
 Wire Wire Line
-	15100 1500 15100 1850
+	15100 1350 15100 1850
 Wire Wire Line
 	15350 3050 15350 2050
-$Comp
-L CONNECTOR_3 P3
-U 1 1 5208C698
-P 10350 1850
-F 0 "P3" H 10350 2050 50  0000 L CNN
-F 1 "CONNECTOR_3" H 10350 1650 50  0000 L CNN
-F 2 "" H 10350 1850 60  0000 C CNN
-F 3 "" H 10350 1850 60  0000 C CNN
-	1    10350 1850
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10400 1950 10650 1950
 Wire Wire Line
 	10400 3050 10400 2050
 Connection ~ 10400 2050
 Connection ~ 15350 2050
-$Comp
-L CONNECTOR_3 P4
-U 1 1 5208C983
-P 13400 6650
-F 0 "P4" H 13400 6850 50  0000 L CNN
-F 1 "CONNECTOR_3" H 13400 6450 50  0000 L CNN
-F 2 "" H 13400 6650 60  0000 C CNN
-F 3 "" H 13400 6650 60  0000 C CNN
-	1    13400 6650
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	13350 7450 13350 6750
 Connection ~ 13000 7450
@@ -1288,23 +1303,10 @@ Wire Wire Line
 	7900 1800 7450 1800
 Wire Wire Line
 	8350 1900 7450 1900
-$Comp
-L DGND #PWR09
-U 1 1 5208D2ED
-P 7450 2300
-F 0 "#PWR09" H 7450 2300 40  0001 C CNN
-F 1 "DGND" H 7450 2230 40  0000 C CNN
-F 2 "" H 7450 2300 60  0000 C CNN
-F 3 "" H 7450 2300 60  0000 C CNN
-	1    7450 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 2200 7450 2300
-NoConn ~ 12200 6750
-NoConn ~ 12200 6850
 Wire Wire Line
-	15350 1750 15350 1650
+	15350 1450 15350 1750
 Wire Wire Line
 	15350 1650 15600 1650
 Wire Wire Line
@@ -1314,46 +1316,231 @@ Wire Wire Line
 Wire Wire Line
 	10650 1850 10400 1850
 Wire Wire Line
-	10400 1750 10400 1650
+	10400 1450 10400 1750
 Wire Wire Line
 	10400 1650 10150 1650
 Wire Wire Line
 	10150 1650 10150 2050
 Wire Wire Line
 	10150 2050 10400 2050
-Text Notes 7700 9200 0    60   ~ 0
-These caps are SMD electrolytic cans. 10mm?
-$Comp
-L FUSE F?
-U 1 1 522071AC
-P 2250 9750
-F 0 "F?" H 2350 9800 40  0000 C CNN
-F 1 "PolyFuse" H 2200 9900 40  0000 C CNN
-F 2 "" H 2250 9750 60  0000 C CNN
-F 3 "" H 2250 9750 60  0000 C CNN
-	1    2250 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L TVS_BIPOL D?
-U 1 1 522071C0
-P 2600 9850
-F 0 "D?" V 2600 9750 40  0000 C CNN
-F 1 "SMAJ12A" V 2450 9850 40  0000 C CNN
-F 2 "" H 2600 9850 60  0000 C CNN
-F 3 "" H 2600 9850 60  0000 C CNN
-	1    2600 9850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2500 9750 3300 9750
 Connection ~ 2600 9750
 Wire Wire Line
-	2600 9950 2050 9950
-NoConn ~ 4100 7600
+	2050 9950 2650 9950
 Wire Wire Line
 	2500 4600 2200 4600
 Connection ~ 4000 4450
 Wire Wire Line
 	4000 4450 4000 4650
+Wire Wire Line
+	8750 4650 8600 4650
+Wire Wire Line
+	9050 4750 9250 4750
+Wire Wire Line
+	7500 4750 8750 4750
+Wire Wire Line
+	9050 4650 10100 4650
+Wire Wire Line
+	7500 6000 7500 4750
+$Comp
+L LED LD4
+U 1 1 5222C539
+P 4800 7450
+F 0 "LD4" V 4850 7600 40  0000 C CNN
+F 1 "Green" V 4900 7600 40  0000 C CNN
+F 2 "" H 4800 7450 60  0000 C CNN
+F 3 "" H 4800 7450 60  0000 C CNN
+	1    4800 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 5222C570
+P 4550 7800
+F 0 "R15" V 4630 7800 40  0000 C CNN
+F 1 "750" V 4557 7801 40  0000 C CNN
+F 2 "" V 4480 7800 30  0000 C CNN
+F 3 "" H 4550 7800 30  0000 C CNN
+	1    4550 7800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4300 7800
+$Comp
+L LED LD3
+U 1 1 5222D6C2
+P 4750 6250
+F 0 "LD3" V 4750 6400 40  0000 C CNN
+F 1 "Green" V 4800 6400 40  0000 C CNN
+F 2 "" H 4750 6250 60  0000 C CNN
+F 3 "" H 4750 6250 60  0000 C CNN
+	1    4750 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 5222D6C8
+P 4500 6500
+F 0 "R14" V 4580 6500 40  0000 C CNN
+F 1 "1k6" V 4507 6501 40  0000 C CNN
+F 2 "" V 4430 6500 30  0000 C CNN
+F 3 "" H 4500 6500 30  0000 C CNN
+	1    4500 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 6350 4750 6500
+Wire Wire Line
+	4750 6200 4750 6000
+Connection ~ 4750 6000
+Wire Wire Line
+	4800 7400 4800 7150
+Connection ~ 4800 7150
+Wire Wire Line
+	4800 7550 4800 7800
+Wire Wire Line
+	1800 7800 4300 7800
+$Comp
+L R R16
+U 1 1 5222E329
+P 4700 4700
+F 0 "R16" V 4780 4700 50  0000 C CNN
+F 1 "3k9" V 4700 4700 50  0000 C CNN
+F 2 "" H 4700 4700 60  0000 C CNN
+F 3 "" H 4700 4700 60  0000 C CNN
+	1    4700 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED LD2
+U 1 1 5222E334
+P 4700 5200
+F 0 "LD2" V 4750 5350 40  0000 C CNN
+F 1 "Green" V 4800 5350 40  0000 C CNN
+F 2 "" H 4700 5200 60  0000 C CNN
+F 3 "" H 4700 5200 60  0000 C CNN
+	1    4700 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 4950 4700 5150
+Wire Wire Line
+	4700 5300 4700 5450
+Connection ~ 4700 5450
+$Comp
+L LED LD1
+U 1 1 5222E640
+P 3150 9800
+F 0 "LD1" V 3200 9950 40  0000 C CNN
+F 1 "Red" V 3250 9950 40  0000 C CNN
+F 2 "" H 3150 9800 60  0000 C CNN
+F 3 "" H 3150 9800 60  0000 C CNN
+	1    3150 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 5222E64B
+P 2900 9950
+F 0 "R13" V 2980 9950 40  0000 C CNN
+F 1 "3k6" V 2907 9951 40  0000 C CNN
+F 2 "" V 2830 9950 30  0000 C CNN
+F 3 "" H 2900 9950 30  0000 C CNN
+	1    2900 9950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2600 9950
+Wire Wire Line
+	3150 9950 3150 9900
+Wire Wire Line
+	2450 6100 2450 6000
+Wire Wire Line
+	1450 1400 1350 1400
+Wire Wire Line
+	1450 1500 850  1500
+Wire Wire Line
+	900  1300 1450 1300
+$Comp
+L LED LD5
+U 1 1 5222EF71
+P 950 1700
+F 0 "LD5" V 950 1550 40  0000 C CNN
+F 1 "Green" V 1000 1550 40  0000 C CNN
+F 2 "" H 950 1700 60  0000 C CNN
+F 3 "" H 950 1700 60  0000 C CNN
+	1    950  1700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 5222EF85
+P 950 2150
+F 0 "R17" V 1030 2150 40  0000 C CNN
+F 1 "750" V 957 2151 40  0000 C CNN
+F 2 "" V 880 2150 30  0000 C CNN
+F 3 "" H 950 2150 30  0000 C CNN
+	1    950  2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1500 950  1650
+Connection ~ 950  1500
+Wire Wire Line
+	950  1800 950  1900
+Wire Wire Line
+	950  2400 950  2600
+Wire Wire Line
+	3350 8000 3050 8000
+$Comp
+L HEADER_2 J?
+U 1 1 52350CD2
+P 10300 1400
+F 0 "J?" H 10300 1550 60  0000 C CNN
+F 1 "Unbal L" H 10300 1250 60  0000 C CNN
+F 2 "" H 10300 1400 60  0000 C CNN
+F 3 "" H 10300 1400 60  0000 C CNN
+	1    10300 1400
+	-1   0    0    1   
+$EndComp
+Connection ~ 10400 1650
+Wire Wire Line
+	10650 1350 10400 1350
+$Comp
+L HEADER_2 J?
+U 1 1 52351008
+P 15500 1400
+F 0 "J?" H 15500 1550 60  0000 C CNN
+F 1 "Unbal R" H 15500 1250 60  0000 C CNN
+F 2 "" H 15500 1400 60  0000 C CNN
+F 3 "" H 15500 1400 60  0000 C CNN
+	1    15500 1400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	15400 1450 15350 1450
+Connection ~ 15350 1650
+Wire Wire Line
+	15400 1350 15100 1350
+$Comp
+L AGND #PWR?
+U 1 1 523514DF
+P 2050 10550
+F 0 "#PWR?" H 2050 10550 40  0001 C CNN
+F 1 "AGND" H 2050 10400 50  0000 C CNN
+F 2 "" H 2050 10550 60  0000 C CNN
+F 3 "" H 2050 10550 60  0000 C CNN
+	1    2050 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 5235151A
+P 1800 7950
+F 0 "#PWR?" H 1800 7950 40  0001 C CNN
+F 1 "AGND" H 1800 7880 50  0000 C CNN
+F 2 "" H 1800 7950 60  0000 C CNN
+F 3 "" H 1800 7950 60  0000 C CNN
+	1    1800 7950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

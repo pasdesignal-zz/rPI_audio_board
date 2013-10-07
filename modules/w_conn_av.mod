@@ -1,7 +1,9 @@
-PCBNEW-LibModule-V1  sab 22 giu 2013 14:47:56 CEST
+PCBNEW-LibModule-V1  9/10/2013 10:00:34 AM
 # encoding utf-8
 Units mm
 $INDEX
+Multicomp_3.5mm
+Neutrik_NC3FAV1
 SCART
 din-5
 jack_3.5_pj313d-smt
@@ -15,6 +17,114 @@ rca_red
 rca_white
 rca_yellow
 $EndINDEX
+$MODULE Multicomp_3.5mm
+Po 0 0 0 15 522E39F8 00000000 ~~
+Li Multicomp_3.5mm
+Sc 0
+AR /5202382D
+Op 0 0 0
+T0 5.2 -8.1 1 1 0 0.15 N V 21 N ""
+T1 12.8524 -1.0922 1 1 900 0.15 N V 21 N "Headphone Out"
+DS 0.1 2.9 -2.5 2.9 0.15 21
+DS -2.5 2.9 -2.5 -3.1 0.15 21
+DS -2.5 -3.1 0.2 -3.1 0.15 21
+DS 0.1 -3.6 11.7 -3.6 0.15 21
+DS 11.7 -3.6 11.7 3.5 0.15 21
+DS 11.7 3.5 0.1 3.5 0.15 21
+DS 0.1 3.5 0.1 -3.6 0.15 21
+DC 2.5 0 1.4 0 0.15 27
+DC 8.5 0.1 9.6 0.1 0.15 27
+$PAD
+Sh "1" R 2 2.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "AGND"
+Po 1.8 -3.4
+$EndPAD
+$PAD
+Sh "3" R 2 2.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-0000048"
+Po 8.5 -3.4
+$EndPAD
+$PAD
+Sh "2" R 2 2.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-0000049"
+Po 5 -3.4
+$EndPAD
+$PAD
+Sh "2" R 2 2.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "N-0000049"
+Po 5 3.3
+$EndPAD
+$PAD
+Sh "3" R 2 2.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "N-0000048"
+Po 8.5 3.3
+$EndPAD
+$PAD
+Sh "1" R 2 2.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "AGND"
+Po 1.8 3.3
+$EndPAD
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0.025
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.5 0.1
+$EndPAD
+$EndMODULE Multicomp_3.5mm
+$MODULE Neutrik_NC3FAV1
+Po 0 0 0 15 522D76C3 00000000 ~~
+Li Neutrik_NC3FAV1
+Sc 0
+AR /52293342
+Op 0 0 0
+T0 0.2 -16 1.5 1.5 0 0.15 N V 21 N "J2"
+T1 -0.15 -11.5 1.5 1.5 0 0.15 N V 21 N "XLR3"
+DC 0 -4.4 10 -4.4 0.15 21
+T2 0.05 -3 1 1 0 0.15 N V 21 N "3"
+T2 -4 -7.2 1 1 0 0.15 N V 21 N "2"
+T2 4.4 -7 1 1 0 0.15 N V 21 N "1+G"
+$PAD
+Sh "3" C 2.4 2.4 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 3 "N-0000016"
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 2.8 2.8 0 0 0
+Dr 1.6 0 0
+At STD N 00D0FFFF
+Ne 1 "AGND"
+Po 4 -4.5
+$EndPAD
+$PAD
+Sh "2" C 2.8 2.8 0 0 0
+Dr 1.6 0 0
+At STD N 00D0FFFF
+Ne 2 "N-0000015"
+Po -4 -4.5
+$EndPAD
+$EndMODULE Neutrik_NC3FAV1
 $MODULE SCART
 Po 0 0 0 15 51C58D7B 00000000 ~~
 Li SCART

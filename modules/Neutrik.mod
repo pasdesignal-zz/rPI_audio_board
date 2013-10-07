@@ -1,0 +1,41 @@
+PCBNEW-LibModule-V1  9/9/2013 7:15:53 PM
+# encoding utf-8
+Units mm
+$INDEX
+Neutrik_NC3FAV1
+$EndINDEX
+$MODULE Neutrik_NC3FAV1
+Po 0 0 0 15 522D74A1 00000000 ~~
+Li Neutrik_NC3FAV1
+Sc 0
+AR /52293342
+Op 0 0 0
+T0 0.2 -16 1.5 1.5 0 0.15 N V 21 N "J2"
+T1 -0.15 -11.5 1.5 1.5 0 0.15 N V 21 N "XLR3"
+DC 0 -4.4 10 -4.4 0.15 21
+T2 0.05 -3 1 1 0 0.15 N V 21 N "3"
+T2 -4.05 7.65 1 1 0 0.15 N V 21 N "2"
+T2 3.85 7.6 1 1 0 0.15 N V 21 N "1+G"
+$PAD
+Sh "3" C 2.4 2.4 0 0 0
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 3 "N-0000016"
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 2.8 2.8 0 0 0
+Dr 1.6 0 0
+At STD N 00D0FFFF
+Ne 1 "AGND"
+Po 4 -4.5
+$EndPAD
+$PAD
+Sh "2" C 2.8 2.8 0 0 0
+Dr 1.6 0 0
+At STD N 00D0FFFF
+Ne 2 "N-0000015"
+Po -4 -4.5
+$EndPAD
+$EndMODULE Neutrik_NC3FAV1
+$EndLIBRARY

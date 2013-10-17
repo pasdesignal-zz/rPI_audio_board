@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  9/18/2013 9:35:13 PM
+PCBNEW-LibModule-V1  10/16/2013 9:13:25 PM
 # encoding utf-8
 Units mm
 $INDEX
 Neutrik_NC3FAV1
+Pot_SMD_Bourns_TC33
 RCA_switchcraft
 $EndINDEX
 $MODULE Neutrik_NC3FAV1
@@ -39,6 +40,42 @@ Ne 0 ""
 Po -3.8 -4.4
 $EndPAD
 $EndMODULE Neutrik_NC3FAV1
+$MODULE Pot_SMD_Bourns_TC33
+Po 0 0 0 15 525E4AA2 00000000 ~~
+Li Pot_SMD_Bourns_TC33
+Sc 0
+AR 
+Op 0 0 0
+T0 0.7 4.2 1 1 0 0.15 N V 21 N "Potentiometer SMD"
+T1 0.4 -4.05 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.4 -0.05 -2.4 3.2 0.15 21
+DS -2.4 3.2 2.4 3.2 0.15 21
+DS 2.4 3.2 2.4 -0.05 0.15 21
+DS 2.4 -0.05 2.4 -2.9 0.15 21
+DS 2.4 -2.9 -2.4 -2.9 0.15 21
+DS -2.4 -2.9 -2.4 -0.05 0.15 21
+$PAD
+Sh "2" R 1.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.45
+$EndPAD
+$PAD
+Sh "3" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 1.8
+$EndPAD
+$PAD
+Sh "1" R 1.2 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 1.8
+$EndPAD
+$EndMODULE Pot_SMD_Bourns_TC33
 $MODULE RCA_switchcraft
 Po 0 0 0 15 523973B2 00000000 ~~
 Li RCA_switchcraft

@@ -56,6 +56,10 @@ $CMP JACK_3.5MM_5PIN
 D 3.5mm jack, 5 pin
 $ENDCMP
 #
+$CMP Jack_3.5mm_Mono
+D 3.5mm jack, 3 pin
+$ENDCMP
+#
 $CMP RJ45-WIZNET-RB1-125BAG1A
 D RJ45 connector, Wiznet rb1-125bag1a
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Meccanici/Connettori/altro/WIZnet_RB1-125BAG1A.pdf

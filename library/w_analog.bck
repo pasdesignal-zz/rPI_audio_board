@@ -300,17 +300,12 @@ D Low Dropout linear regulator
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Regolatori/NJR_NJU777x.pdf
 $ENDCMP
 #
-$CMP OPA1612
-D Dual low voltage Power Amplifiers
-F /dati/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Amplifiers/ST_TDA2822.pdf
-$ENDCMP
-#
 $CMP OPAMP
 D 2.7V to 6.0V Single Supply CMOS Op Amps
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/OpAmp/Rail_to_rail/MCIP_MCP601-602-603-604.pdf
 $ENDCMP
 #
-$CMP OPAMP-NONINV
+$CMP OPAMP-noninv
 D 2.7V to 6.0V Single Supply CMOS Op Amps
 F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/OpAmp/Rail_to_rail/MCIP_MCP601-602-603-604.pdf
 $ENDCMP
